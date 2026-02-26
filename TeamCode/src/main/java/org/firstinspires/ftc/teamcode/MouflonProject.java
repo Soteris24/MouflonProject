@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.mouflonproject;
+package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 @TeleOp(name = "mouflonproject")
-public class mouflonproject extends LinearOpMode {
+public class MouflonProject extends LinearOpMode {
     private List<DcMotor> armMotors = new ArrayList<>();
     private DcMotor backRight;
     private DcMotor backLeft;
